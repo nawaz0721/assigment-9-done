@@ -33,6 +33,11 @@ img{
     text-decoration: none;
     color:gray;
 }
+@media screen and (max-width: 550px) {
+    .icon {
+      display: none;
+    }
+  }
 .icon a:hover{
     background-color: black;
     color: white;
